@@ -3,7 +3,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   z-index: 99;
   @include transition(0.3s);
 }
