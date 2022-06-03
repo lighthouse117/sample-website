@@ -3,6 +3,7 @@
 ===========================*/
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 
 :root {
   --body-color: #637381;
@@ -22,7 +23,7 @@ body {
 * {
   margin: 0;
   padding: 0;
-  font-family: "Comfortaa", sans-serif;
+  font-family: "Comfortaa", cursive;
   @include box-sizing(border-box);
 }
 
@@ -36,11 +37,15 @@ ul {
 }
 
 .comfortaa {
-  font-family: "Comfortaa";
+  font-family: "Comfortaa", cursive;
 }
 
 .noto-sans-jp {
-  font-family: "Noto Sans JP";
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
 }
 
 a,
